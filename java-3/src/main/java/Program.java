@@ -8,6 +8,6 @@ public class Program {
 
         System.out.println("Исходный массив - " + Arrays.toString(massive));
         BubbleSort sorter = new BubbleSort(massive);
-        System.out.print("Сортированный массив - " + Arrays.toString(sorter.sort()));
+        System.out.print("Сортированный массив - " + Arrays.toString(sorter.Sort())); //changed method name
     }
 }

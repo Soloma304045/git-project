@@ -89,7 +89,6 @@ public class Program {
      * @param args аргументы командной строки (не используются)
      */
     public static void main(String[] args) {
-        ArrayList<Plane> planeList = new ArrayList<Plane>();
         ArrayList<String> nameList = new ArrayList<String>();
 
         // Создание начальных объектов самолетов
@@ -106,15 +105,7 @@ public class Program {
         IL iL_3 = new IL("Kristina", 247, 1483);
 
         // Добавление самолетов в список
-        planeList.add(boeing_1);
-        planeList.add(boeing_2);
-        planeList.add(boeing_3);
-        planeList.add(airbus_1);
-        planeList.add(airbus_2);
-        planeList.add(airbus_3);
-        planeList.add(iL_1);
-        planeList.add(iL_2);
-        planeList.add(iL_3);
+        ArrayList<Plane> planeList = new ArrayList<Plane>() [boeing_1, boeing_2, boeing_3, airbus_1, airbus_2, airbus_3, iL_1, iL_2, iL_3]; //упрощение создания списка
 
         Scanner in = new Scanner(System.in);
         boolean endIsNear = false;

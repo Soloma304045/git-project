@@ -7,7 +7,7 @@ public class BubbleSort {
         massive = mass;
     }
 
-    public int[] sort() {
+    public int[] Sort() { //changed mentod name
         int bubble;
         for(int i = 0;i < massive.length;i++) {
             for(int j = 0;j < massive.length - 1;j++) {
